@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSiteMaker", "WebSiteMaker\WebSiteMaker.csproj", "{0E8429DB-E754-43E0-A949-2C891FBDF218}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{725FCC8F-2882-43FB-97B9-4D19D07CCD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSiteMaker.Domain", "WebSiteMaker.Domain\WebSiteMaker.Domain.csproj", "{447DA684-EF55-4A58-B477-DBADD6964181}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{12DF4CF5-3A8F-4716-8176-5CDA96F53141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSiteMaker.Common", "WebSiteMaker.Common\WebSiteMaker.Common.csproj", "{D49BE813-F949-427B-9D82-D8C47F0431F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E8429DB-E754-43E0-A949-2C891FBDF218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8429DB-E754-43E0-A949-2C891FBDF218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8429DB-E754-43E0-A949-2C891FBDF218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8429DB-E754-43E0-A949-2C891FBDF218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447DA684-EF55-4A58-B477-DBADD6964181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447DA684-EF55-4A58-B477-DBADD6964181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447DA684-EF55-4A58-B477-DBADD6964181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447DA684-EF55-4A58-B477-DBADD6964181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49BE813-F949-427B-9D82-D8C47F0431F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49BE813-F949-427B-9D82-D8C47F0431F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49BE813-F949-427B-9D82-D8C47F0431F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49BE813-F949-427B-9D82-D8C47F0431F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{447DA684-EF55-4A58-B477-DBADD6964181} = {725FCC8F-2882-43FB-97B9-4D19D07CCD18}
+		{D49BE813-F949-427B-9D82-D8C47F0431F6} = {12DF4CF5-3A8F-4716-8176-5CDA96F53141}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4AEF1BA-673A-4441-8D7E-93A36BCB94EA}
+	EndGlobalSection
+EndGlobal
